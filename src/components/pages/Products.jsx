@@ -17,7 +17,7 @@ const Products = () => {
           return (
             <Card key={_id}>
               <Link to={`/products/${_id}`}>
-                <img src={img} alt="" />
+                <img src={img} alt="" width="100%" height="300px"/>
               </Link>
               <CardContent>
                 <h3>
@@ -41,17 +41,20 @@ const Products = () => {
 
   const ShowProducts = styled.div`
     display:flex;
-    justify-content:space-between;
+    flex-wrap:wrap;
+    justify-content:center;
   
   `;
 
   const Card = styled.div`
+    width:27%;
+    margin:10px;
+    
   
   `;
 
   const CardContent = styled.div`
 
-  
   `;
 
 export default Products

@@ -8,7 +8,7 @@ const ProviderProducts = ({children}) => {
         [
             {
                 _id: "1",
-                img: "https://picsum.photos/id/237/200/200",
+                img: "https://i.ibb.co/TwtGfKW/1coca.png",
                 name: 'Coca',
                 about: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
                 price: 2,
@@ -16,7 +16,7 @@ const ProviderProducts = ({children}) => {
             },
             {
                 _id: "2",
-                img: "https://picsum.photos/id/237/200/200",
+                img: "https://i.ibb.co/kSJsZVJ/2pepsi.png",
                 name: 'Pepsi',
                 about: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
                 price: 3,
@@ -24,7 +24,7 @@ const ProviderProducts = ({children}) => {
             },
             {
                 _id: "3",
-                img: "https://picsum.photos/id/237/200/200",
+                img: "https://i.ibb.co/KjXncsP/3juice.png",
                 name: 'Juice',
                 about: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
                 price: 5,
@@ -32,7 +32,7 @@ const ProviderProducts = ({children}) => {
             },
             {
                 _id: "4",
-                img: "https://picsum.photos/id/237/200/200",
+                img: "https://i.ibb.co/gZqwpbX/4burger.png",
                 name: 'Burger',
                 about: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
                 price: 10,
@@ -40,7 +40,7 @@ const ProviderProducts = ({children}) => {
             },
             {
                 _id: "5",
-                img: "https://picsum.photos/id/237/200/200",
+                img: "https://i.ibb.co/FJfkgLK/5fries.png",
                 name: 'Fries',
                 about: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
                 price: 7,
@@ -48,7 +48,7 @@ const ProviderProducts = ({children}) => {
             },
             {
                 _id: "6",
-                img: "https://picsum.photos/id/237/200/200",
+                img: "https://i.ibb.co/q03FWVV/6pizza.png",
                 name: 'Pizza',
                 about: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
                 price: 12,

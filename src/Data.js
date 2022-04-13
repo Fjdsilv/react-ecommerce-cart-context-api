@@ -5,9 +5,9 @@ import burger from './img/4burger.png'
 import fries from './img/5fries.png'
 import pizza from './img/6pizza.png'
 
-export const products = [
+const products = [
     {
-        id: 1,
+        _id: "1",
         img: `${coca}`,
         name: 'Coca',
         about: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
@@ -15,7 +15,7 @@ export const products = [
         units: 20
     },
     {
-        id: 2,
+        _id: "2",
         img: `${pepsi}`,
         name: 'Pepsi',
         about: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
@@ -23,7 +23,7 @@ export const products = [
         units: 20
     },
     {
-        id: 3,
+        _id: "3",
         img: `${juice}`,
         name: 'Juice',
         about: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
@@ -31,7 +31,7 @@ export const products = [
         units: 15
     },
     {
-        id: 4,
+        _id: "4",
         img: `${burger}`,
         name: 'Burger',
         about: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
@@ -39,7 +39,7 @@ export const products = [
         units: 25
     },
     {
-        id: 5,
+        _id: "5",
         img: `${fries}`,
         name: 'Fries',
         about: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
@@ -47,7 +47,7 @@ export const products = [
         units: 35
     },
     {
-        id: 6,
+        _id: "6",
         img: `${pizza}`,
         name: 'Pizza',
         about: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
@@ -55,3 +55,5 @@ export const products = [
         units: 30
     }
 ]
+
+export default products;
